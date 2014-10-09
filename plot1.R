@@ -19,7 +19,7 @@ data = sqldf("select * from data where Date in ('1/2/2007','2/2/2007')")
 hist(data$Global_active_power,
      col=c("red"),
      main="Global Active Power",
-     xlab="Global Active Power(kilowatts)",
+     xlab="Global Active Power (kilowatts)",
      cex.axis = 0.7,
      cex.lab=0.7
      )

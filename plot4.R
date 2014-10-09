@@ -94,8 +94,8 @@ with(data,
 # legend
 legend("topright", 
        lty=1, 
-       cex=0.5
-       bty = "n",
+       cex=0.5,
+       bty="n",
        col = c("black","red","blue"), 
        legend = c("Sub_metering_1",
                   "Sub_metering_2",
